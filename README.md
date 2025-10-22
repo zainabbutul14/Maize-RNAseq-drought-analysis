@@ -76,7 +76,7 @@ Each visualization unveils part of maize’s adaptive logic to drought stress.
 
 > “In Cytoscape, the maize of genes becomes a map — showing maize’s coordinated survival plan, where heat shock proteins and ABA signals connect to defend and conserve.”
 
-📖 *For full plots, interpretations, and visuals → [Full Project Story](docs/full_project_story.md)*
+📖 *For full plots, interpretations, and visuals → [Full Project Story] https://github.com/zainabbutul14/Maize-RNAseq-drought-analysis/blob/main/results/full_project_story.md *
 
 ---
 
@@ -164,11 +164,9 @@ This step unifies functional enrichment and protein-interaction data — creatin
 All outputs (plots, DEG tables, and enrichment results) are saved in results/.
 
 
-⚖️ License
+# ⚖️ License
 
 This repository is licensed under the MIT License.
 
 “Drought teaches plants resilience.
 This project taught me how data reveals that resilience — gene by gene.”
-
-(Author: Zainab Butul) 
