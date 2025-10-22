@@ -150,6 +150,8 @@ Combined plots summarize **cross-tissue trends** and highlight globally conserve
 
 *Figure 8. Combined heatmap revealing shared co-expression modules underlying universal drought adaptation.*
 
+Together, these combined plots reveal a core drought-response architecture shared across maize tissues — defining the universal molecular signature of drought resilience.
+
 ---
 
 ### 🧠 GO Enrichment — *Dominant Functional Pathways*
@@ -249,3 +251,7 @@ Understanding these transcriptional differentiations opens potential routes for 
 ---
 
 🧠 *In essence, drought-stressed maize reprograms itself at the molecular level — suppressing growth to survive, while well-watered plants sustain developmental expansion. Understanding this switch enables targeted interventions to engineer or breed maize that can both grow and endure.*
+
+## 🌼 Acknowledgments
+This project was carried out as part of an independent bioinformatics research initiative using public maize RNA-seq data.  
+Special thanks to open-source tool developers of Kallisto, DESeq2, g:Profiler, and Cytoscape for enabling reproducible plant transcriptomics.
