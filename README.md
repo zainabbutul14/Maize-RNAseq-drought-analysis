@@ -47,7 +47,7 @@ This project investigates how maize makes that molecular decision.
 3. **Quantification** — Estimate transcript abundances (Kallisto).  
 4. **Transcript–Gene Mapping** — Generate mapping file for DESeq2 (`tx2gene.csv`).  
 5. **Differential Expression Analysis** — Identify DEGs (DESeq2).  
-6. **Functional Enrichment** — Interpret DEGs biologically (g:Profiler, clusterProfiler).  
+6. **Functional Enrichment** — Interpret DEGs biologically (g:Profiler).  
 7. **Network Visualization** — Map interactions (STRING, Cytoscape).
 
 ### Tools Used
