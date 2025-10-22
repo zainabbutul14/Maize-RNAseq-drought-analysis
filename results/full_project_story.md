@@ -28,7 +28,7 @@ Understanding these transcriptional shifts not only explains how maize survives 
 3. **Quantification** — Transcript abundance estimation with **Kallisto**.  
 4. **Transcript–Gene Mapping** — `tx2gene.csv` for DESeq2.  
 5. **Differential Expression** — DESeq2 (FDR < 0.05 | |log2FC| > 1).  
-6. **Functional Enrichment** — g:Profiler + clusterProfiler.  
+6. **Functional Enrichment** — g:Profiler.  
 7. **Network Visualization** — STRING + Cytoscape integration.
 
 ---
