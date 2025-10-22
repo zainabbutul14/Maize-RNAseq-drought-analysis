@@ -1,0 +1,37 @@
+﻿Run,tissue,Developmental_stage,growth_condition,source_name
+SRR2144382,leaf,V12,well-watered,maize leaf V12
+SRR2144383,leaf,V12,well-watered,maize leaf V12
+SRR2144384,leaf,V12,well-watered,maize leaf V12
+SRR2144386,ear,V12,well-watered,maize ear V12
+SRR2144387,ear,V12,well-watered,maize ear V12
+SRR2144388,ear,V12,well-watered,maize ear V12
+SRR2144414,leaf,V12,drought-stressed,maize leaf V12 drought
+SRR2144415,leaf,V12,drought-stressed,maize leaf V12 drought
+SRR2144416,leaf,V12,drought-stressed,maize leaf V12 drought
+SRR2144418,ear,V12,drought-stressed,maize ear V12 drought
+SRR2144419,ear,V12,drought-stressed,maize ear V12 drought
+SRR2144420,ear,V12,drought-stressed,maize ear V12 drought
+SRR2144446,tassel,V12,well-watered,maize tassel V12
+SRR2144447,tassel,V12,well-watered,maize tassel V12
+SRR2144448,tassel,V12,well-watered,maize tassel V12
+SRR2144461,tassel,V12,drought-stressed,maize tassel V12 drought
+SRR2144462,tassel,V12,drought-stressed,maize tassel V12 drought
+SRR2144463,tassel,V12,drought-stressed,maize tassel V12 drought
+SRR2144406,leaf,R1,well-watered,maize leaf R1
+SRR2144407,leaf,R1,well-watered,maize leaf R1
+SRR2144408,leaf,R1,well-watered,maize leaf R1
+SRR2144410,ear,R1,well-watered,maize ear R1
+SRR2144411,ear,R1,well-watered,maize ear R1
+SRR2144412,ear,R1,well-watered,maize ear R1
+SRR2144438,leaf,R1,drought-stressed,maize leaf R1 drought
+SRR2144439,leaf,R1,drought-stressed,maize leaf R1 drought
+SRR2144440,leaf,R1,drought-stressed,maize leaf R1 drought
+SRR2144442,ear,R1,drought-stressed,maize ear R1 drought
+SRR2144443,ear,R1,drought-stressed,maize ear R1 drought
+SRR2144444,ear,R1,drought-stressed,maize ear R1 drought
+SRR2144458,tassel,R1,well-watered,maize tassel R1
+SRR2144459,tassel,R1,well-watered,maize tassel R1
+SRR2144460,tassel,R1,well-watered,maize tassel R1
+SRR2144472,tassel,R1,drought-stressed,maize tassel R1 drought
+SRR2144473,tassel,R1,drought-stressed,maize tassel R1 drought
+SRR2144474,tassel,R1,drought-stressed,maize tassel R1 drought
