@@ -150,6 +150,16 @@ Functional enrichment
 ```
 Rscript scripts/final_enrichment.R
 ```
+Cytoscape & STRING integration
+```
+python3 cytoscape.py
+```
+Then, used autoannotate in cytoscape to cluster and label modules
+DEGs are mapped to **UniProt IDs** (via biomaRt in R) for STRING-based interaction analysis.
+
+**STRING Database**  provides protein–protein networks that integrate directly into Cytoscape.
+
+This step unifies functional enrichment and protein-interaction data — creating a systems-level drought-response network.
 
 All outputs (plots, DEG tables, and enrichment results) are saved in results/.
 
