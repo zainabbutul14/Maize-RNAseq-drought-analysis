@@ -1,6 +1,6 @@
-# 📖 Full Project Story — Decoding Maize's Drought Response through RNA-seq
+#  Full Project Story — Decoding Maize's Drought Response through RNA-seq
 
-## 🌾 Abstract
+## Abstract
 Maize (*Zea mays*) faces a critical trade-off under drought: survival versus growth.  
 Using RNA-seq data from NCBI BioProject PRJNA291919, this study maps the genome-wide transcriptional landscape across three tissues (leaf, ear, tassel) under drought and well-watered conditions.  
 Through an integrated pipeline—Kallisto → DESeq2 → g:Profiler → STRING → Cytoscape—thousands of differentially expressed genes were identified and functionally characterized.  
@@ -9,7 +9,7 @@ Together, these findings expose the molecular logic behind maize resilience and 
 
 ---
 
-## 🌱 Background
+##  Background
 
 Drought leaves plants at a crossroads — to invest in growth or to survive.  
 This study explores the genetic logic behind that decision in *Zea mays* (maize), revealing how it reprograms its genes across tissues to withstand water stress.
@@ -21,7 +21,7 @@ By integrating differential expression, enrichment, and protein-interaction netw
 Understanding these transcriptional shifts not only explains how maize survives drought but also provides a foundation for engineering crops that can thrive under climate stress.
 
 ---
-## 🧬 Pipeline Overview
+##  Pipeline Overview
 
 1. **Data Acquisition** — 36 RNA-seq samples (3 tissues × 2 stages × 2 conditions × 3 replicates) from [NCBI BioProject PRJNA291919](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA291919).  
 2. **Quality Control & Trimming** — FastQC + fastp.  
@@ -32,12 +32,12 @@ Understanding these transcriptional shifts not only explains how maize survives 
 7. **Network Visualization** — STRING + Cytoscape integration.
 
 ---
-## 🧩 Biologically Insightful Visualization Outcomes
+##  Biologically Insightful Visualization Outcomes
 
 Each visualization reveals a different layer of maize’s molecular drought adaptation — from global expression reprogramming to functional network organization.
 
 ---
-### 🧭 PCA Plots — *Global Expression Patterns Across Tissues*
+###  PCA Plots — *Global Expression Patterns Across Tissues*
 
 **What it shows:** Principal Component Analysis summarizes expression variation across thousands of genes.  
 **What it reveals:**  
@@ -53,7 +53,7 @@ Each visualization reveals a different layer of maize’s molecular drought adap
 *Figure 1. PCA plots by tissue — leaf shows the clearest drought–control separation.*
 
 ---
-### 🌋 Volcano Plots — *Differential Expression Significance Across Tissues*
+###  Volcano Plots — *Differential Expression Significance Across Tissues*
 
 **What it shows:** log₂ fold-change vs −log₁₀ p-value for every gene.  
 **What it reveals:**  
@@ -70,7 +70,7 @@ Each visualization reveals a different layer of maize’s molecular drought adap
 
 ---
 
-### 📈 MA Plots — *Expression Balance and Fold Changes Across Tissues*
+###  MA Plots — *Expression Balance and Fold Changes Across Tissues*
 
 **What it shows:** Mean expression (A) vs log fold-change (M).  
 **What it reveals:**  
@@ -87,7 +87,7 @@ Each visualization reveals a different layer of maize’s molecular drought adap
 
 ---
 
-### 🔥 Heatmaps — *Tissue-specific Co-expression Patterns*
+###  Heatmaps — *Tissue-specific Co-expression Patterns*
 
 **What it shows:** Normalized expression clustering of DEGs across samples.  
 **What it reveals:**  
@@ -104,11 +104,11 @@ Each visualization reveals a different layer of maize’s molecular drought adap
 
 ---
 
-## 🔎 Combined (ALL Tissues) Visualizations — Shared & Core Responses
+##  Combined (ALL Tissues) Visualizations — Shared & Core Responses
 
 Combined plots summarize **cross-tissue trends** and highlight globally conserved drought-response signatures.
 
-### 🧭 PCA_ALL — *Global sample structure across tissues*
+###  PCA_ALL — *Global sample structure across tissues*
 **What it shows:** PCA using all samples together.  
 **What it reveals:** Tissue identity drives most variance, yet drought–control separation is also visible across tissues.  
 **Key takeaway:** A common drought axis overlays tissue-specific expression space.
@@ -119,7 +119,7 @@ Combined plots summarize **cross-tissue trends** and highlight globally conserve
 
 ---
 
-### 📈 MA_ALL — *Overall Differential-Expression Landscape*
+###  MA_ALL — *Overall Differential-Expression Landscape*
 **What it shows:** Average expression vs log₂ fold-change for all samples combined.  
 **What it reveals:** Dense DEG bands mark consistently regulated genes; outliers represent tissue-specific shifts.  
 **Key takeaway:** A core set of genes is consistently regulated across tissues — universal drought responders.
@@ -130,7 +130,7 @@ Combined plots summarize **cross-tissue trends** and highlight globally conserve
 
 ---
 
-### 🌋 Volcano_ALL — *Shared Significant DEGs Across Tissues*
+###  Volcano_ALL — *Shared Significant DEGs Across Tissues*
 **What it shows:** Significance vs fold-change aggregated across tissues.  
 **What it reveals:** High-confidence DEGs that remain significant in multiple tissues.  
 **Key takeaway:** Identifies robust, cross-tissue drought-responsive genes for follow-up studies.
@@ -141,7 +141,7 @@ Combined plots summarize **cross-tissue trends** and highlight globally conserve
 
 ---
 
-### 🔥 Heatmap_ALL — *Core Co-expression Modules Across the Whole Dataset*
+###  Heatmap_ALL — *Core Co-expression Modules Across the Whole Dataset*
 **What it shows:** Expression of top variable/core DEGs across all samples.  
 **What it reveals:** Conserved clusters — energy-saving genes repressed everywhere, defense genes activated broadly.  
 **Key takeaway:** Reveals a compact “core drought module” shared across tissues.
@@ -154,7 +154,7 @@ Together, these combined plots reveal a core drought-response architecture share
 
 ---
 
-### 🧠 GO Enrichment — *Dominant Functional Pathways*
+###  GO Enrichment — *Dominant Functional Pathways*
 
 **What it shows:** Enriched biological processes among DEGs.  
 **What it reveals:** Activation of stress-signaling, antioxidant defense, and protein-folding mechanisms.  
@@ -166,7 +166,7 @@ Together, these combined plots reveal a core drought-response architecture share
 
 ---
 
-### 🕸️ STRING Network — *Protein–Protein Interaction Modules*
+###  STRING Network — *Protein–Protein Interaction Modules*
 
 **What it shows:** Functional relationships among drought-responsive proteins.  
 **What it reveals:** Two major hubs — **HSP proteostasis** and **ABA signaling**.  
@@ -178,7 +178,7 @@ Together, these combined plots reveal a core drought-response architecture share
 
 ---
 
-### 🧬 Cytoscape Visualization — *Functional Network Mapping*
+###  Cytoscape Visualization — *Functional Network Mapping*
 
 **What it shows:** Cytoscape integrates STRING + enrichment data into an annotated interaction map.  
 **What it reveals:** Clusters of co-functional genes tied to proteostasis, oxidative stress, and hormonal signaling.  
@@ -188,13 +188,13 @@ Together, these combined plots reveal a core drought-response architecture share
 
 *Figure 11. Cytoscape map integrating enrichment and STRING results — AutoAnnotate clustering reveals Heat Shock and ABA modules.*
 
-🧠 *AutoAnnotate identified two key hubs:*  
+ *AutoAnnotate identified two key hubs:*  
 1. **Heat Shock Cluster:** HSP82 / HSP26 — protein protection.  
 2. **ABA Signaling Cluster:** PYL7–PP2C–SnRK2 axis — osmotic control.
 
 ---
 
-## 🌾 Biological Conclusion
+##  Biological Conclusion
 
 Maize displays a **hierarchical drought-response network**:  
 - **Global:** Growth repression and energy conservation.  
@@ -202,15 +202,15 @@ Maize displays a **hierarchical drought-response network**:
 - **Ear:** Activates protection while repressing reproduction.  
 - **Tassel:** Broad shutdown to preserve resources.
 
-🧠 Integration of HSP and ABA modules shows a two-pronged strategy:  
+ Integration of HSP and ABA modules shows a two-pronged strategy:  
 1. Maintain protein stability through proteostasis networks.  
 2. Regulate water balance via ABA-mediated signaling.
 
-🌿 *Together, these findings highlight maize’s molecular resilience and identify targets for future drought-tolerant crop improvement.*
+ *Together, these findings highlight maize’s molecular resilience and identify targets for future drought-tolerant crop improvement.*
 
 ---
 
-## 💧 Interpreting Drought vs. Well-Watered Differentiation
+##  Interpreting Drought vs. Well-Watered Differentiation
 
 The multi-tissue transcriptome comparison clearly distinguishes **drought-stressed** and **well-watered** maize plants at multiple biological levels:
 
@@ -230,9 +230,9 @@ The multi-tissue transcriptome comparison clearly distinguishes **drought-stress
 ---
 :
 
-🌻 This integration of computational genomics and plant biology reveals how big data can illuminate the invisible resilience of crops — and guide us toward more sustainable agriculture.
+ This integration of computational genomics and plant biology reveals how big data can illuminate the invisible resilience of crops — and guide us toward more sustainable agriculture.
 
-## 🌿 Translational & Treatment Insight
+##  Translational & Treatment Insight
 
 Understanding these transcriptional differentiations opens potential routes for improving drought tolerance:
 
@@ -250,8 +250,8 @@ Understanding these transcriptional differentiations opens potential routes for 
 
 ---
 
-🧠 *In essence, drought-stressed maize reprograms itself at the molecular level — suppressing growth to survive, while well-watered plants sustain developmental expansion. Understanding this switch enables targeted interventions to engineer or breed maize that can both grow and endure.*
+ *In essence, drought-stressed maize reprograms itself at the molecular level — suppressing growth to survive, while well-watered plants sustain developmental expansion. Understanding this switch enables targeted interventions to engineer or breed maize that can both grow and endure.*
 
-## 🌼 Acknowledgments
+##  Acknowledgments
 This project was carried out as part of an independent bioinformatics research initiative using public maize RNA-seq data.  
 Special thanks to open-source tool developers of Kallisto, DESeq2, g:Profiler, and Cytoscape for enabling reproducible plant transcriptomics.
