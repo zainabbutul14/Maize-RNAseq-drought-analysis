@@ -136,7 +136,7 @@ Maize-RNAseq-drought-analysis/
     └── run_rnaseq_pipeline.sh
 ```
 
-## Reproducibility
+## 7. Reproducibility
 Run full RNA-seq pipeline using 
 ```
 bash scripts/run_rnaseq_pipeline.sh
