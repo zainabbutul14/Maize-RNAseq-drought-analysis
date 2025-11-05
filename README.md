@@ -1,10 +1,10 @@
 # Maize-RNAseq-drought-analysis
-# 🌾 Decoding Maize's Drought Response through RNA-seq  
+# Decoding Maize's Drought Response through RNA-seq  
 *Differential Expression • Functional Enrichment • Network Visualization*
 
 ---
 
-## 🌱 1. Overview / Snapshot
+##  1. Overview / Snapshot
 A comprehensive RNA-seq analysis of **maize (Zea mays)** under drought stress.  
 This project decodes how maize reprograms its genes across **leaf, ear, and tassel** tissues to adapt and survive water deficit.  
 
@@ -15,7 +15,7 @@ Pipeline integrates:
 
 ---
 
-## 💧 2. Why This Matters
+## 2. Why This Matters
 Drought stress is one of the most severe global challenges impacting crop yield.  
 Understanding maize’s molecular response under drought provides insights for:  
 - Developing **drought-tolerant cultivars**  
@@ -28,7 +28,7 @@ This project investigates how maize makes that molecular decision.
 
 ---
 
-## 🧬 3. Data & Dataset Information
+## 3. Data & Dataset Information
 - **Organism:** *Zea mays* (inbred line B73)  
 - **Conditions:** Drought vs. Control  
 - **Tissues:** Leaf, Ear, Tassel  
@@ -39,7 +39,7 @@ This project investigates how maize makes that molecular decision.
 
 ---
 
-## ⚙️ 4. Methods / Workflow Overview
+## 4. Methods / Workflow Overview
 
 ### Pipeline Stages
 1. **Data Acquisition** — Download 36 RNA-seq samples using SRA Toolkit.  
@@ -62,7 +62,7 @@ This project investigates how maize makes that molecular decision.
 
 ---
 
-## 🌿 5. Results & Biological Insight
+## 5. Results & Biological Insight
 
 Each visualization unveils part of maize’s adaptive logic to drought stress.
 
@@ -80,7 +80,7 @@ Each visualization unveils part of maize’s adaptive logic to drought stress.
 
 ---
 
-## 📂 6. Project Structure
+## 6. Project Structure
 ```
 Maize-RNAseq-drought-analysis/
 
@@ -164,7 +164,7 @@ This step unifies functional enrichment and protein-interaction data — creatin
 All outputs (plots, DEG tables, and enrichment results) are saved in results/.
 
 
-# ⚖️ License
+# License
 
 This repository is licensed under the MIT License.
 
